@@ -1,34 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    color: #FFF;
-    text-decoration: none;
-}
-
-/* @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-} */
-
-
+*{margin: 0 ; padding: 0; }
+li{list-style: none;}
+a{color: #FFF ; text-decoration: none;}
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
-
 
 html,
 body {
     max-width: 100%;
     overflow-x: hidden;
 }
-
 
 /* nav 시작 */
 .navbar-brand {
@@ -59,7 +38,6 @@ body {
 .navbar-toggler {
     border: 0px;
 }
-
 /* nav 끝 */
 
 /* banner시작 */
@@ -117,7 +95,6 @@ body {
     background-size: cover;
 }
 
-
 /* banner-1 */
 .swiper-slide-textarea1 {
     position: absolute;
@@ -138,7 +115,6 @@ body {
     font-size: 40px;
     margin-bottom: 40px;
 }
-
 
 .swiper-slide-textarea1 li:nth-child(3) {
     color: #ffffff;
@@ -326,7 +302,6 @@ body {
     font-size: 30px;
     line-height: 50px;
 }
-
 /* 띠배너-1 끝 */
 
 /* ctr시작 */
@@ -348,7 +323,6 @@ section {
     text-align: center;
     color: #36723f;
     display: inline-block;
-
 }
 
 .wrap {
@@ -1071,7 +1045,6 @@ section {
         color: #FFF;
 
     }
-
     /* ctr끝 */
 
     /*Product 시작*/
@@ -1200,11 +1173,6 @@ section {
         border-radius: 50px;
 
     }
-
-    /* .banner3-wrap-text li a:hover{
-        background-color: #ffffff;
-        color: #36723f;
-    } */
     /* 띠배너-2 끝 */
 
     /* review 시작 */
@@ -1472,6 +1440,5 @@ section {
         letter-spacing: 15px;
 
     }
-
     /*footer 끝  */
 }
